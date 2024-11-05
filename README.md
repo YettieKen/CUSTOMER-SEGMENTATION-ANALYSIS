@@ -42,7 +42,8 @@ For Data cleaning and preparation, I carried out the following:
 * Data cleaning using column profile 
 
 ### EXPLORATORY DATA ANALYSIS
-This involved exploring the data to answer some questions such as
+This involved exploring the data to answer some questions such as:
+
 * understanding customer behavior
   
 *  track subscription types
@@ -50,5 +51,66 @@ This involved exploring the data to answer some questions such as
 *  identify key trends in cancellations and renewals
   
 ### DATA ANALYSIS
+some basic lines of codes and queries used:
+
+```
+SELECT * FROM[dbo].[CustomerProject]
+
+-----1----- retrieve the total number of customers from each region.------
+SELECT Region,count(customerID) as total_customers
+FROM[dbo].[CustomerProject]
+GROUP BY Region;
+
+----2----- find the most popular subscription type by the number of customers------
+SELECT Top 1 SubscriptionType, Count(distinct customerId) as Total_customers
+FROM[dbo].[CustomerProject]
+GROUP BY SubscriptionType
+ORDER BY total_customers DESC;
+
+-----3---find customers who canceled their subscription within 6 months-----
+SELECT CustomerID, SubscriptionStart, SubscriptionEnd 
+FROM [dbo].[CustomerProject]
+WHERE datediff(MONTH,Subscriptionstart,Subscriptionend) <= 6;
+
+-----4-------calculate the average subscription duration for all customers-------
+SELECT AVG(Datediff(day,SubscriptionStart,SubscriptionEnd)) as avg_subscription_duration
+FROM [dbo].[CustomerProject];
+
+-----5-----find customers with subscriptions longer than 12 months----
+SELECT CustomerID
+FROM[dbo].[CustomerProject]
+WHERE datediff(day,SubscriptionStart,SubscriptionEnd) > 12;
+
+SELECT * FROM [dbo].[CustomerProject]
+
+-----6-----calculate total revenue by subscription type-----
+SELECT SubscriptionType,
+SUM(Revenue) as total_revenue
+FROM [dbo].[CustomerProject]
+GROUP BY SubscriptionType;
+
+-----7-----find the top 3 regions by subscription cancellations-----
+SELECT TOP 3 Region,
+count (SubscriptionEnd) as SubscriptionEnd
+FROM[dbo].[CustomerProject]
+WHERE SubscriptionEnd is NOT NULL
+GROUP BY Region
+ORDER BY SubscriptionEnd DESC;
+
+-----8------find the total number of active and canceled subscriptions----
+SELECT SUM(CASE WHEN SubscriptionEnd is NULL THEN 1 ELSE 0 END) as total_active_Subscriptions,
+SUM(CASE WHEN SubscriptionEnd is not null THEN 1 ELSE 0 END) as total_canceled_Subscriptions
+FROM [dbo].[CustomerProject];
+
+```
+
+
+
+
+
+
+
+
+
 ### DATA VISUALIZATION
 ### RECOMMENDATION AND CONCLUSION
