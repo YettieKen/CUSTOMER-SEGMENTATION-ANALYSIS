@@ -103,14 +103,6 @@ SUM(CASE WHEN SubscriptionEnd is not null THEN 1 ELSE 0 END) as total_canceled_S
 FROM [dbo].[CustomerProject];
 
 ```
-
-
-
-
-
-
-
-
-
 ### DATA VISUALIZATION
+
 ### RECOMMENDATION AND CONCLUSION
