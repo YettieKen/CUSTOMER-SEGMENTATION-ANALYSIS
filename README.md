@@ -132,5 +132,6 @@ FROM [dbo].[CustomerProject];
 * A survey should be done to understand why the customers canceled their subcription.
 *  More interesting or innovative measures should be put in place to encourage customers to select or subscribe to the other segments.
 
-  THANK YOU😊
+  THANK YOU
+  😊
   
