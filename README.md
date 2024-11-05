@@ -21,9 +21,14 @@ The Primary source of Data used is the Customer Segmentation for a Subscription 
 ### TOOLS USED
 
 *Microsoft Excel
-a. 
-*SQL
-*PowerBI
+a. Check for Duplicates
+b. REmove Duplicates
+c. Added Column to show End of Subscription
+
+*SQL- Structured Query Language for querying the Customer Subscription
+
+*PowerBI- for creating Visualization
+
 ### DATA CLEANING AND PREPARATION
 ### EXPLORATORY DATA ANALYSIS
 ### DATA ANALYSIS
