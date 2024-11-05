@@ -105,4 +105,9 @@ FROM [dbo].[CustomerProject];
 ```
 ### DATA VISUALIZATION
 
+![Screenshot (17)](https://github.com/user-attachments/assets/5e9e2802-b90d-4605-bdcf-cd93eae2a61e)
+![Screenshot (16)](https://github.com/user-attachments/assets/10b803a3-b964-4950-a630-52f9f1b5163b)
+![Screenshot (14)](https://github.com/user-attachments/assets/b010fe67-c57c-4879-991b-abaaf31b43ec)
+
+
 ### RECOMMENDATION AND CONCLUSION
