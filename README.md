@@ -19,16 +19,15 @@ dashboard that presents the analysis.
 The Primary source of Data used is the Customer Segmentation for a Subscription service downloaded from the Learning Management System of the Ladies in Tech Africa.
 
 ### TOOLS USED
-
 * Microsoft Excel
 
-a. Check for Duplicates
+  a. Check for Duplicates
 
-b. Remove Duplicates (data cleaning)
+  b. Remove Duplicates (data cleaning)
 
-c. Added Column to show End of Subscription
+  c. Added Column to show End of Subscription
 
-d. Visualization
+  d. Visualization
 
 *SQL- Structured Query Language for querying the Customer Subscription
 
