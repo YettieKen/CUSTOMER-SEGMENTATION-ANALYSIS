@@ -1,5 +1,5 @@
 ### PROJECT TITLE: CUSTOMER-SEGMENTATION-ANALYSIS
-
+---
 [PROJECT OVERVIEW](#project-overview)
 
 [DATA SOURCES](#data-sources)
@@ -17,18 +17,21 @@
 [RECOMMENDATION AND CONCLUSION](#recommendation-and-conclusion)
 
 ### PROJECT OVERVIEW
+---
 This project involves analyzing customer data for a subscription service to identify 
 segments and trends. The goal is to understand customer behavior, track subscription types, 
 and identify key trends in cancellations and renewals. The final deliverable is a Power BI 
 dashboard that presents the analysis.
 
 ### DATA SOURCES
+---
 The Primary source of Data used is the Customer Segmentation for a Subscription service downloaded from the Learning Management System of the Ladies in Tech Africa.
 
 ### TOOLS USED
+---
 * Microsoft Excel [Download here](https://www.microsoft.com)
 
-  a. Check for Duplicates
+  a. Checked for Duplicates
 
   b. Remove Duplicates (data cleaning)
 
@@ -41,6 +44,7 @@ The Primary source of Data used is the Customer Segmentation for a Subscription 
 * PowerBI- for creating Visualization
 
 ### DATA CLEANING AND PREPARATION
+---
 For Data cleaning and preparation, I carried out the following:
 
 * Data loading and inspection
@@ -49,6 +53,7 @@ For Data cleaning and preparation, I carried out the following:
 * Data cleaning using column profile 
 
 ### EXPLORATORY DATA ANALYSIS
+---
 This involved exploring the data to answer some questions such as:
 
 * understanding customer behavior
@@ -58,6 +63,7 @@ This involved exploring the data to answer some questions such as:
 *  identify key trends in cancellations and renewals
   
 ### DATA ANALYSIS
+---
 some basic lines of codes and queries used:
 
 ```
@@ -111,6 +117,7 @@ FROM [dbo].[CustomerProject];
 
 ```
 ### DATA VISUALIZATION
+---
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/5e9e2802-b90d-4605-bdcf-cd93eae2a61e)
 ![Screenshot (16)](https://github.com/user-attachments/assets/10b803a3-b964-4950-a630-52f9f1b5163b)
@@ -118,3 +125,9 @@ FROM [dbo].[CustomerProject];
 
 
 ### RECOMMENDATION AND CONCLUSION
+---
+1. Basic subscription type had the highest number of Customers
+2. Almost half of the Customers canceled their Subscription.
+
+* A survey should be done to understand why the customers canceled their subcription.
+*  More interesting or innovative measures should be put in place to encourage customers to select or subscribe to the other segments.
