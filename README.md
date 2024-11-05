@@ -19,7 +19,7 @@ dashboard that presents the analysis.
 The Primary source of Data used is the Customer Segmentation for a Subscription service downloaded from the Learning Management System of the Ladies in Tech Africa.
 
 ### TOOLS USED
-* Microsoft Excel
+* Microsoft Excel [Download here](https://www.microsoft.com)
 
   a. Check for Duplicates
 
@@ -29,11 +29,15 @@ The Primary source of Data used is the Customer Segmentation for a Subscription 
 
   d. Visualization
 
-*SQL- Structured Query Language for querying the Customer Subscription
+* SQL- Structured Query Language for querying the Customer Subscription
 
-*PowerBI- for creating Visualization
+* PowerBI- for creating Visualization
 
 ### DATA CLEANING AND PREPARATION
+For Data cleaning and preparation,
+* understand customer behavior
+*  track subscription types
+*  identify key trends in cancellations and renewals
 ### EXPLORATORY DATA ANALYSIS
 ### DATA ANALYSIS
 ### DATA VISUALIZATION
