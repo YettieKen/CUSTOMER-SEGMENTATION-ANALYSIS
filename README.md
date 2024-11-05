@@ -1,12 +1,19 @@
 ### PROJECT TITLE: CUSTOMER-SEGMENTATION-ANALYSIS
 
 [PROJECT OVERVIEW](#project-overview)
+
 [DATA SOURCES](#data-sources)
+
 [TOOLS USED](#tools-used)
+
 [DATA CLEANING AND PREPARATION](#data-cleaning)
+
 [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+
 [DATA ANALYSIS](#data-analysis)
+
 [DATA VISUALIZATION](#data-visualization)
+
 [RECOMMENDATION AND CONCLUSION](#recommendation-and-conclusion)
 
 ### PROJECT OVERVIEW
