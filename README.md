@@ -34,11 +34,21 @@ The Primary source of Data used is the Customer Segmentation for a Subscription 
 * PowerBI- for creating Visualization
 
 ### DATA CLEANING AND PREPARATION
-For Data cleaning and preparation,
-* understand customer behavior
-*  track subscription types
-*  identify key trends in cancellations and renewals
+For Data cleaning and preparation, I carried out the following:
+
+* Data loading and inspection
+* Checked for Duplicates
+* Removed duplicates
+* Data cleaning using column profile 
+
 ### EXPLORATORY DATA ANALYSIS
+This involved exploring the data to answer some questions such as
+* understanding customer behavior
+  
+*  track subscription types
+  
+*  identify key trends in cancellations and renewals
+  
 ### DATA ANALYSIS
 ### DATA VISUALIZATION
 ### RECOMMENDATION AND CONCLUSION
