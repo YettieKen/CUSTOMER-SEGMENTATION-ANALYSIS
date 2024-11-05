@@ -20,10 +20,15 @@ The Primary source of Data used is the Customer Segmentation for a Subscription 
 
 ### TOOLS USED
 
-*Microsoft Excel
+* Microsoft Excel
+
 a. Check for Duplicates
-b. REmove Duplicates
+
+b. Remove Duplicates (data cleaning)
+
 c. Added Column to show End of Subscription
+
+d. Visualization
 
 *SQL- Structured Query Language for querying the Customer Subscription
 
